@@ -1,0 +1,140 @@
+import { SupplementComponent } from '../types/supplement';
+
+export const SUPPLEMENT_COMPONENTS: SupplementComponent[] = [
+  {
+    id: 'whey-protein',
+    name: 'Whey Protein',
+    subtitle: 'Cold-Microfiltered Bioactive Whey Isolate',
+    category: 'protein',
+    categoryLabel: 'Protein & Hypertrophy',
+    role: 'Accelerated Myofibrillar Protein Synthesis',
+    mechanism: 'Rapidly releases essential amino acids and native bioactive leucine directly into muscle tissue to trigger mTOR anabolic signaling following intense mechanical strain.',
+    trainingBenefit: 'Enhances rate of lean tissue remodeling, shortens inter-workout recovery windows, and halts catabolic muscle tissue breakdown.',
+    keyCompounds: ['Pure Whey Isolate Peptides', 'Bioactive L-Leucine', 'Full Essential Amino Acid Spectrum'],
+    scientificValidation: 'Gold standard biological value (BV 104) with complete PDCAAS score for post-workout skeletal muscle repair.',
+    purityGrade: 'Cold Microfiltered 99%+ Pure',
+    featured: true
+  },
+  {
+    id: 'creatine',
+    name: 'Creatine',
+    subtitle: 'Ultra-Micronized Phosphocreatine Substrate',
+    category: 'strength',
+    categoryLabel: 'Strength & Explosive Power',
+    role: 'Intracellular ATP Regeneration',
+    mechanism: 'Donates high-energy phosphate groups to adenosine diphosphate (ADP) to resynthesize cellular ATP during maximal-effort anaerobic muscle contractions.',
+    trainingBenefit: 'Increases maximal power output, sprint velocity, working set capacity, and cellular osmotic hydration for fuller muscle bellies.',
+    keyCompounds: ['Micronized Creatine Monohydrate', 'Phosphocreatine Substrates'],
+    scientificValidation: 'The most thoroughly researched ergogenic aid in sports science literature with over 500 peer-reviewed human trials.',
+    purityGrade: '200-Mesh Pharmaceutical Purity',
+    featured: true
+  },
+  {
+    id: 'bcaa',
+    name: 'BCAA',
+    subtitle: 'Fermented 2:1:1 Free-Form Branched-Chain Amino Acids',
+    category: 'recovery',
+    categoryLabel: 'Intra-Workout & Anti-Catabolism',
+    role: 'Direct Skeletal Muscle Fuel & Glycogen Sparing',
+    mechanism: 'Enters systemic circulation without hepatic pre-processing to provide immediate metabolic substrate to working muscle fibers and suppress central nervous fatigue.',
+    trainingBenefit: 'Prevents skeletal muscle tissue catabolism during prolonged resistance training, fasted cardio, and aggressive caloric deficits.',
+    keyCompounds: ['Fermented L-Leucine', 'Fermented L-Isoleucine', 'Fermented L-Valine'],
+    scientificValidation: 'Proven to modulate tryptophan uptake across the blood-brain barrier to delay perceived physical exertion.',
+    purityGrade: '100% Plant-Fermented Free-Form',
+    featured: true
+  },
+  {
+    id: 'protein',
+    name: 'Protein',
+    subtitle: 'Complete Essential Structural Amino Acid Matrix',
+    category: 'protein',
+    categoryLabel: 'Muscle Architecture & Remodeling',
+    role: 'Systemic Cellular Rebuilding Blocks',
+    mechanism: 'Provides all nine indispensable amino acids required for nitrogen retention, enzymatic synthesis, and connective tissue maintenance throughout heavy training cycles.',
+    trainingBenefit: 'Supports continuous muscular hypertrophy, positive nitrogen balance, and structural adaptation to progressive overload.',
+    keyCompounds: ['Complete Essential Amino Acids', 'Peptide-Bound Glutamine', 'Structural Polypeptides'],
+    scientificValidation: 'Clinical consensus indicates sustained daily protein bioavailability is essential for myofibrillar adaptation.',
+    purityGrade: 'Unadulterated Native Protein Fraction',
+    featured: true
+  },
+  {
+    id: 'pre-workout',
+    name: 'Pre-Workout',
+    subtitle: 'Endothelial Nitric Oxide & Neuromuscular Drive Matrix',
+    category: 'pre-workout',
+    categoryLabel: 'Energy & Vasodilation',
+    role: 'Vascular Dilatation & CNS Focus',
+    mechanism: 'Stimulates endothelial nitric oxide synthase (eNOS) to dilate arterial pathways while sensitizing neuromuscular motor units for enhanced contractile velocity.',
+    trainingBenefit: 'Generates dramatic vascular muscle fullness, delays intramuscular lactic acid accumulation, and sharpens cognitive training focus.',
+    keyCompounds: ['Fermented L-Citrulline', 'Pure Beta-Alanine', 'Natural Caffeine Anhydrous', 'L-Tyrosine'],
+    scientificValidation: 'Clinically substantiated synergy between nitric oxide precursors and carnosine buffers.',
+    purityGrade: '100% Active Ingredients · Zero Fillers',
+    featured: true
+  },
+  {
+    id: 'electrolytes',
+    name: 'Electrolytes',
+    subtitle: 'Bioavailable Osmotic Mineral Salt Matrix',
+    category: 'hydration',
+    categoryLabel: 'Cellular Hydration & Neuromuscular Signaling',
+    role: 'Fluid Osmolality & Action Potential Transmission',
+    mechanism: 'Replenishes extracellular and intracellular electrolytes to maintain neuromuscular membrane polarization and preserve plasma volume during high sweat rates.',
+    trainingBenefit: 'Eliminates muscular cramping, prevents hypohydration-induced strength loss, and maintains sustained endurance during prolonged sessions.',
+    keyCompounds: ['Sodium Ionic Salts', 'Potassium Citrate', 'Magnesium Malate', 'Trace Minerals'],
+    scientificValidation: 'Optimal sodium-to-potassium ratios preserve cardiac output and muscle contractility during intense heat and strain.',
+    purityGrade: 'Pure Ionic Mineral Matrix',
+    featured: true
+  },
+  {
+    id: 'glutamine',
+    name: 'Glutamine',
+    subtitle: 'Free-Form Fermented L-Glutamine',
+    category: 'recovery',
+    categoryLabel: 'Immune & Intestinal Epithelial Defense',
+    role: 'Enterocyte Integrity & Glycogen Resynthesis',
+    mechanism: 'Serves as the primary respiratory fuel for rapidly dividing mucosal cells and lymphocytes, defending the intestinal barrier under severe physical strain.',
+    trainingBenefit: 'Accelerates systemic recovery, reduces markers of training-induced gut permeability, and supports whole-body nitrogen balance.',
+    keyCompounds: ['100% Free-Form L-Glutamine'],
+    scientificValidation: 'Demonstrated in clinical sports research to mitigate immune suppression during high-frequency microcycles.',
+    purityGrade: '99.8% Purity Fermentation',
+    featured: false
+  },
+  {
+    id: 'vitamins-minerals',
+    name: 'Vitamins & Minerals',
+    subtitle: 'Chelated Bioavailable Micronutrient Complex',
+    category: 'health',
+    categoryLabel: 'Metabolic & Hormonal Foundation',
+    role: 'Enzymatic Cofactor Regulation',
+    mechanism: 'Supplies chemically chelated minerals and active vitamin coenzymes that catalyze ATP energy production, testosterone modulation, and bone matrix turnover.',
+    trainingBenefit: 'Fortifies athletic vitality, supports deep REM restorative sleep, and prevents micronutrient deficits common in hard-training lifters.',
+    keyCompounds: ['Chelated Zinc Bisglycinate', 'Bioavailable Magnesium', 'Vitamin D3 Cholecalciferol', 'Methylated B-Complex'],
+    scientificValidation: 'Amino acid chelation delivers significantly higher intestinal mucosal absorption than standard oxide minerals.',
+    purityGrade: 'TRAACS® Chelation Standard',
+    featured: true
+  },
+  {
+    id: 'omega-3',
+    name: 'Omega-3',
+    subtitle: 'Molecularly Distilled EPA & DHA Triglycerides',
+    category: 'health',
+    categoryLabel: 'Joint Cartilage & Anti-Inflammatory Lipids',
+    role: 'Cell Membrane Phospholipid Fluidity',
+    mechanism: 'Incorporates directly into skeletal muscle cell membranes to competitively down-regulate inflammatory cytokine cascades and enhance arterial flexibility.',
+    trainingBenefit: 'Alleviates delayed-onset muscle soreness (DOMS), cushions joint connective tissues, and enhances neuromuscular conduction.',
+    keyCompounds: ['Eicosapentaenoic Acid (EPA)', 'Docosahexaenoic Acid (DHA)', 'Active Marine Triglycerides'],
+    scientificValidation: 'IFOS 5-star certified purity ensuring total elimination of heavy metals, furans, and lipid peroxides.',
+    purityGrade: 'Molecularly Distilled Triglycerides',
+    featured: false
+  }
+];
+
+export const CATEGORY_FILTERS = [
+  { id: 'all', label: 'All Components' },
+  { id: 'protein', label: 'Whey & Protein' },
+  { id: 'strength', label: 'Creatine & Power' },
+  { id: 'pre-workout', label: 'Pre-Workout & NO' },
+  { id: 'hydration', label: 'Electrolytes' },
+  { id: 'recovery', label: 'BCAA & Glutamine' },
+  { id: 'health', label: 'Vitamins & Omega-3' }
+] as const;

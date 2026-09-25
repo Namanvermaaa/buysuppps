@@ -1,0 +1,8 @@
+{
+  "name": "BuySupps by Mukul Chaudhary",
+  "description": "Simple Supplements. Better Training. Essential, unadulterated supplement components engineered for real fitness performance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
